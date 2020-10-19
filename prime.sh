@@ -20,10 +20,10 @@ do
 	fi
 done
 
-	if [ $flag -eq 1 ]
-        then
-                echo "$ranCheck is not a prime"
-        fi
+#	if [ $flag -eq 1 ]
+#        then
+#                echo "$ranCheck is not a prime"
+#        fi
 
 
 	if [ $flag -eq 0 ]
@@ -33,4 +33,6 @@ done
 		echo "Counter : " $count
 		break
 	fi
+flag=0
+
 done
